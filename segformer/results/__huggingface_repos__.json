@@ -1,0 +1,1 @@
+{"repos": [{"repoId": "nvidia/segformer-b3-finetuned-ade-512-512", "repoType": "model", "commitHash": "a820c29fc1e53723079d94ca0e09a14d2657fae6", "filePaths": ["config.json", "pytorch_model.bin"]}, {"repoId": "nvidia/segformer-b3-finetuned-ade-512-512", "repoType": "model", "commitHash": "d49ce4e74ab8bbcd9e7886e52d716add0c8f5136", "filePaths": ["model.safetensors"]}]}

@@ -1,0 +1,50 @@
+
+SegFormer Model Test Set Inference Timing Report
+================================================
+
+Test Configuration:
+- Device: cuda
+- Test set size: 89 samples
+- Image resolution: 256x256 pixels
+- Input channels: 4 (RGB + NIR)
+- Model: SegFormer-B3 with 4-channel input
+
+Performance Summary:
+- Optimal batch size: 16
+- Maximum FPS: 68.31
+- Fastest average sample time: 14.64ms
+- Total test set processing time (optimal): 1.30s
+
+Detailed Results by Batch Size:
+
+Batch Size 1:
+  - FPS: 24.42
+  - Avg sample time: 40.96ms
+  - Avg batch time: 40.96ms ± 4.16ms
+  - Total inference time: 3.65s
+
+Batch Size 4:
+  - FPS: 60.67
+  - Avg sample time: 16.48ms
+  - Avg batch time: 63.78ms ± 7.29ms
+  - Total inference time: 1.47s
+
+Batch Size 8:
+  - FPS: 67.04
+  - Avg sample time: 14.92ms
+  - Avg batch time: 110.64ms ± 22.42ms
+  - Total inference time: 1.33s
+
+Batch Size 16:
+  - FPS: 68.31
+  - Avg sample time: 14.64ms
+  - Avg batch time: 217.15ms ± 32.52ms
+  - Total inference time: 1.30s
+
+System Information:
+- GPU: Tesla T4
+- GPU Memory: 14.7 GB
+- CUDA Version: 12.4
+- PyTorch Version: 2.6.0+cu124
+
+Analysis Date: 2025-07-31 00:33:20
